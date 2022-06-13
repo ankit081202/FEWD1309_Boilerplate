@@ -33,14 +33,12 @@ body{
 }
 .row1> div,.row2> div,.row3 > div{
     /* Iteration 1 : change the display property so that the default block property of a div is changed. */
-    /* display: inline-block; */
     border: 2px solid;
     margin-bottom: 4px ;
     padding: 15px;
 }
 .rowa,.rowb,.rowc {
     /* Iteration 2 : change the display property so that the default block property of a div is changed, but dont use the same display property as in iteration 1 */
-    /* display: flex; */
 }
 .rowa> div,.rowb> div,.rowc > div{
     border: 2px solid;
@@ -50,9 +48,7 @@ body{
 .container3{
     width:fit-content;
     /* Iteration 3 : change the display property so that the default block property of a div is changed, but dont use the same display property as in iteration 1 and 2 */
-    /* display: grid; */
     /* Iteration 4 : modify the code so that they get aligned into 3 rows and 3 columns */
-    /* grid-template-columns: repeat(3, 1fr); */
     gap: 4px;
 }
 .container3 > div{
